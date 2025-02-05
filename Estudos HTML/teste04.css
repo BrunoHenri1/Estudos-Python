@@ -1,0 +1,38 @@
+h1{
+    color: blueviolet; /* Adiciona uma cor a letra */
+    font-family: 'Arial', helvetica, sans-serif; /* Coloca a letra em um tema, e se não possuir o tema especifico puxa o mais próximo */
+    font-size: 54px;/* */
+    background-color: black; /* Coloca um fundo no texto */
+    text-align: center; /* centraliza o Texto */
+}
+
+h2{
+    font-size: 48px; /* Decide o tamanho da fonte */
+    font-style: italic; /* Coloca a fonte em itálico */
+    text-align: center;
+    font-weight: bold; /* Coloca em negrito */
+}
+
+h3{
+    color: blueviolet;
+    font-size: 38px; 
+    font-style: oblique; /* Rotaciona parecido com italico */
+    text-decoration: underline; /* coloca um sublinhado no texto */
+    text-transform: capitalize; /* Deixas as primeiras letras em maiúsculo */
+    text-align: center;
+    background-color: black;
+}
+p{  
+    font-size: 28px; 
+    text-align: left; /* Alinha o texto na página */
+    text-indent: 28px;
+    color: #000000;
+    font-variant: small-caps /* seleciona a forma que voce quer deixar a letra */
+}
+a{
+    text-decoration: none; /* Retira o sublinhado de um link */
+    font-variant: normal;
+}
+body{
+    background-color: aqua;
+}
