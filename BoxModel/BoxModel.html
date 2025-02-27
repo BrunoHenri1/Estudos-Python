@@ -25,6 +25,7 @@
         h2{
             background-color: blue;
             margin-top: 56px;
+            border-bottom: 2px solid greenyellow;
             
         }
         .destaque{
@@ -40,6 +41,19 @@
         .margin{
             margin: 50px 0 20px 100px;
         }
+        .border{
+            border-top: 10px solid red;
+            border-right: 10px dotted rgb(229, 236, 26);
+            border-left: 30px dashed rgb(42, 152, 42);
+            border-bottom: 10px groove rgb(42, 50, 83);
+            padding: 10px;
+        }
+        .borda2{
+            border: 5px dashed red;
+        }
+        .outline{
+            outline: 5px dashed rgb(38, 0, 255);
+        }
 
     </style>
 </head>
@@ -53,7 +67,6 @@
     <p>Lorem ipsum dolor sit amet.
 
     </p>
-</head>
 <body>
     <h1>Padding</h1>
     
@@ -64,7 +77,6 @@
     <p>Lorem ipsum dolor sit amet.
 
     </p>
-</head>
 <body>
     <h1>Margin</h1>
     
@@ -75,15 +87,27 @@
     <p>Lorem ipsum dolor sit amet.
 
     </p>
-    <body>
-        <h1>Border</h1>
+<body>
+    <h1>Border</h1>
         
-        <h2>Width e Height</h2>
+    <h2>Width e Height</h2>
     
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p class="destaque border">Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="destaque border">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.
     
-        </p>
+    </p>
 </body>
+<body>
+    <h1>Outline</h1>
+        
+    <h2>Width e Height</h2>
+    
+    <p class="destaque borda2 outline">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque outline">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.
+    
+    </p>
+</body>
+</head>
 </html>
