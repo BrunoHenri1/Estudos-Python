@@ -3,7 +3,7 @@ from moeda import *
 
 valor = float(input("Digite o valor: R$ "))
 
-print(f"A metade de R$ {valor:.2f} é R$ {metade(valor):.2f}")
-print(f"O Dobro de R$ {valor:.2f} é R$ {dobro(valor):.2f}")
-print(f"O valor R$ {valor:.2f} com 10% de desconto é R$ {diminuir(valor, 10):.2f}")
-print(f"O valor R$ {valor:.2f} com 10% de acréscimo é R$ {aumentar(valor, 10):.2f}")
+print(f"A metade de {valor} é {metade(valor)}")
+print(f"O Dobro de {valor} é {dobro(valor)}")
+print(f"O valor {valor} com 10% de desconto é {diminuir(valor, 10)}")
+print(f"O valor {valor} com 10% de acréscimo é {aumentar(valor, 10)}")
